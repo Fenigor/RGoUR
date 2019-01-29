@@ -69,7 +69,7 @@ def move(player, from_pos, moves):
             path[4][from_pos - 4] = from_pos
         else:
             path[from_pos - 7] = from_pos
-        FINISHED.append(symbol)
+        #FINISHED.append(symbol)
         print("Scored!")
         return 14
     elif to_ > 11:
@@ -134,13 +134,13 @@ def main():
     print(RED_PAWS)'''
 #main()
 
-from ipywidgets import interact, interactive, fixed
-import ipywidgets as widgets
-from IPython.display import display
+#from ipywidgets import interact, interactive, fixed
+#import ipywidgets as widgets
+#from IPython.display import display
 
 def f(x):
     return x
   
 
-w = interact(f, x=10);  
-display(w)
+#w = interact(f, x=10);  
+#display(w)
